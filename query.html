@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+
+        // Function to change heading to say goodbye
+        function hello() {
+            document.querySelector('h1').innerHTML = 'Goodbye';
+            document.getElementById('change').innerHTML = 'Now its change by id'
+        }
+
+    </script>
+    
+    <title>Query</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+
+    <h1>Another H1</h1>
+    <p>The query only gets the firt thing that find in the page</p>
+
+    <button onclick="hello()">Click here</button>
+
+    <h2 id="change">Something to change</h2>
+
+</body>
+</html>
